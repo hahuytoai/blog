@@ -1,25 +1,22 @@
-name = "Hugo Future Imperfect Slim"
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "docPort"
 license = "MIT"
-licenselink = "https://github.com/pacollins/hugo-future-imperfect-slim/blob/master/LICENSE.md"
-description = "Future Imperfect Theme - Slimmed Down"
-homepage = "https://github.com/pacollins/hugo-future-imperfect-slim"
-tags = ["Academic", "Academicons", "Blog", "Contact Form", "CSS Grid", "Disqus",
-        "Fancybox", "Font Awesome", "Gallery", "Google Analytics", "Google News",
-        "Highlight.js", "Jquery", "Lunr.js", "Multilingual", "Netlify",
-        "Responsive", "Search",  "Open Graph", "Staticman", "Syntax Highlighting",
-        "Twitter Cards"]
-features = ["Academicons v1.8.6", "Disqus", "Fancybox v3.5.7", "Font Awesome v5.13.0",
-            "Google Analytics", "Google News", "Highlight.js v10.0.3", "Jquery v3.5.1",
-            "Lunr.js v2.3.8", "Netlify", "Open Graph", "Staticman", "Theme Update Notification",
-            "Twitter Cards"]
-min_version = "v0.62.0/extended"
+licenselink = "https://github.com/vjeantet/hugo-theme-docport/blob/master/LICENSE.md"
+description = "Documentation theme for Hugo"
+homepage = "https://github.com/vjeantet/hugo-theme-docport"
+repo = "https://github.com/vjeantet/hugo-theme-docport"
+tags = ["documentation", "menu","slide","search"]
+features = ["documentation","menu","nested sections","search","slide","attachments"]
+min_version = 0.50
 
 [author]
-  name = "Patrick Collins"
-  homepage = "https://pacollins.com"
+  name = "Valere JEANTET"
+  homepage = "http://twitter.com/vjeantet"
 
-# If porting an existing theme
 [original]
-  name = "Future Imperfect"
-  homepage = "https://github.com/jpescador/hugo-future-imperfect"
-  repo = "https://github.com/jpescador/hugo-future-imperfect"
+  name = "docPort"
+  homepage = "https://github.com/vjeantet/hugo-theme-docdock/"
+  repo = "https://github.com/vjeantet/hugo-theme-docdock"
+  licenselink = "https://github.com/matcornic/hugo-theme-docdock/blob/master/LICENSE.md"

@@ -1,14 +1,18 @@
 +++
-title = ""
+title= "{{ replace .TranslationBaseName "-" " " | title }}"
+date= {{ .Date }}
 description = ""
-author = ""
-date = ""
-tags = [""]
-categories = [""]
-comments = true
-removeBlur = false
-[[images]]
-  src = ""
-  alt = ""
-  stretch = ""
+draft = true
+
+subpage = false
+
+hide_header=false
+hide_nav=false
+hide_breadcrumb=false
+hide_toc=false
+hide_footer=false
+hide_nextpage=false
 +++
+
+Lorem Ipsum.
+Notice `draft` is set to true.
